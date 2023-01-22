@@ -1,6 +1,10 @@
 # Open policy analysis of the musical economy in Europe
 
-`T1.3` Open policy analysis of the musical economy in Europe. The policy analysis will show that many “data gaps” on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.
+This repository contains the deliverables of the [Open Music Europe (OpenMuse)](https://cordis.europa.eu/project/id/101095295): _An Open, Scalable, Data-to-Policy Pipeline for European Music Ecosystems_ project, supported by the Horizon Europe Grant agreement ID: 101095295.
+
+- [x] `T1.3` Open policy analysis of the musical economy in Europe. The policy analysis will show that many “data gaps” on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.
+
+## How to Contribute?
 
 🌈 Contribution guidelines - you must abide by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct.
 
