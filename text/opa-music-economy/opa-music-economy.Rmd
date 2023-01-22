@@ -1,0 +1,15 @@
+---
+title: "Open policy analysis of the musical economy in Europe"
+author: "Daniel Antal"
+date: "2023-01-22"
+output: 
+   word_document: default
+   md_document: default
+   html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+`T1.3` Open policy analysis of the musical economy in Europe. The policy analysis will show that many “data gaps” on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.

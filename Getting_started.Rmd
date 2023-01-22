@@ -1,0 +1,82 @@
+---
+title: "Getting Started"
+author: "Daniel Antal"
+date: "2023-01-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Media assets
+
+### Still images, data visualizations, charts, infographics
+
+All images must be saved into the `../assets/img/` folder and its subfolders.  The [Cloud Storage Use in Europe]() visualization of our dataset published in the Slovak PCR report can be found `../assets/img/6x4/ind_cloud_storage_files@en.png` in English version, and `../assets/img/6x4/ind_cloud_storage_files@sk.png` in Slovak. 
+
+
+```{r ind-cloud-strorage-files-en}
+knitr::include_graphics(file.path("assets", "img", "6x4", "ind_cloud_storage_files@en.png"))
+```
+
+- [x] Whenever visualizations are named in several languages, create one visualizatio publication with files denoting the language versions with `@en`, `@bg`, etc.
+- [x] For maximum reusability, it is a good idea to save programatically created charts in several aspect ratios: 16x9 and 6x4, and maybe even in square, and often with title captions and without. 
+- [x] Every visualization must have a single, globally unique identifier, in this case [DOI:10.6084/m9.figshare.20455224](https://doi.org/10.6084/m9.figshare.20455224).This way both humans and computers can find our asset.
+
+```{r ind-cloud-strorage-files-sk}
+knitr::include_graphics(file.path("assets", "img", "6x4", "ind_cloud_storage_files@sk.png"))
+```
+
+Every image will be published on Zenodo or Figshare. These particular files can be found on [https://figshare.com/articles/figure/Cloud_Storage_Use_in_Europe/20455224](https://figshare.com/articles/figure/Cloud_Storage_Use_in_Europe/20455224).  We also have a bibliographic reference file, in this case `../bib/data/ind_cloud_storage_files.bib` for correctly citing our visualization.
+
+FigShare and Zenodo make sure that other reseaerchers of this topic will find our work, and if they reuse the visualization, they give proper attribution to it.  This file, although published in a non-public report, has 4-5 downloads per months because it can be found.
+
+### Video files
+
+Moving images should be placed in `../assets/video/`.
+
+## Text
+
+
+
+## Bibliographic references
+
+There are many bibliography management software in the market. We use [Zenodo](https://zenodo.org/) because it is free to use, open-source, and compatible with many paid bibliography management tools.
+
+Our Zotero libraries should be synchronized to the GitHub repositories.  The bibliographic reference files must be saved in: 
+- [x] `../bib/` for books, published articles, manuscripts, complex documents that may contain themselves data, references to other text, and images.
+- [x] `../bib/data` for datasets.
+- [x] `../bib/img` for images.
+- [x] `../bib/img` for videos.
+
+
+
+```{r, eval=FALSE}
+## Contents of the ../bib/data/ind_cloud_storage_files.bib  file:
+misc{ind_cloud_storage_files@en,
+  title = {Cloud Storage Use {in} Europe},
+  publisher = {Fighshare},
+  author = {Antal, Daniel},
+  urldate = {2022-08-09},
+  date = {2022-08-09},
+  year = 2022,
+  doi = {https://doi.org/10.6084/m9.figshare.20455224},
+  url = {https://doi.org/10.6084/m9.figshare.20455224},
+  langid = {en},
+  keywords = {2022, {Cloud storage}, {Files}, {Sociology and Social Studies of Science and Technology} }
+}
+
+misc{ind_cloud_storage_files@sk,
+  title = {{Používanie cloudového úložiska v Európe}{[Cloud Storage Use in Europe]},
+  publisher = {Fighshare},
+  author = {Antal, Daniel},
+  urldate = {2022-08-09},
+  date = {2022-08-09},
+  year = 2022,
+  doi = {https://doi.org/10.6084/m9.figshare.20455224},
+  url = {https://doi.org/10.6084/m9.figshare.20455224},
+  langid = {sk},
+  keywords = {2022, {Cloud storage}, {Files}, {Sociology and Social Studies of Science and Technology} }
+}
+```
