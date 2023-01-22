@@ -4,9 +4,13 @@ This repository contains the deliverables of the [Open Music Europe (OpenMuse)](
 
 - [x] `T1.3` Open policy analysis of the musical economy in Europe. The policy analysis will show that many “data gaps” on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.
 
+![](https://raw.githubusercontent.com/dataobservatory-eu/opa-music-economy/main/assets/img/other_images/OPA-principles.webp)
+
 ## How to Contribute?
 
 🌈 Contribution guidelines - you must abide by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct.
+
+
 
 ## Media assets
 - [x] All assets must be saved in the assets folder 
